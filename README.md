@@ -17,10 +17,10 @@ wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/mast
 # 创建构建目录并切换到该目录
 mkdir -p build && cd build
 
-＃ 配置
+# 配置
 cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-master/modules ../opencv-master -DOPENCV_GENERATE_PKGCONFIG=YES .. -DCUDA_ARCH_BIN='7.5' -DOPENCV_ENABLE_NONFREE=ON
 
-＃ 建造
+# 建造
 make -j8(8为CPU核心数，通过nproc查看)
 
 # 构建完毕后
