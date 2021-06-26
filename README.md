@@ -1,6 +1,6 @@
 # ubuntu
 使用Ubuntu20.04系统配置opencv4.5.3以及opencv_contrib4.5.3环境
-# CSND链接
+# CSDN链接
 https://blog.csdn.net/Philloasd/article/details/118251160
 
 # 安装依赖
