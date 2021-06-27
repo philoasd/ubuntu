@@ -11,8 +11,8 @@ sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libp
 # 下载并解压源码
 wget -O opencv.zip https://github.com/opencv/opencv/archive/master.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/master.zip
-解压 opencv.zip
-解压 opencv_contrib.zip
+unzip opencv.zip
+unzip opencv_contrib.zip
 
 # 创建构建目录并切换到该目录
 mkdir -p build && cd build
